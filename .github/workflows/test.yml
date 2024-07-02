@@ -14,4 +14,4 @@ jobs:
               #npm ci downloads the exact versions of the dependencies that are in the package-lock.json file
               run: npm ci
             - name: Run tests
-              run: npm test
+              run: npm test 
