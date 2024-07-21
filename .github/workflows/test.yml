@@ -30,3 +30,8 @@ jobs:
               run: npm ci
             - name: Build the project
               run: npm run build
+            - name: Upload the built project artifact
+              uses: actions/upload-artifact@v3
+              with:
+                name: built-project
+                path: dist
